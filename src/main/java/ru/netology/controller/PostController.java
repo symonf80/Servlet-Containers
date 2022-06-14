@@ -1,7 +1,7 @@
 package ru.netology.controller;
 
 import com.google.gson.Gson;
-
+import org.springframework.stereotype.Controller;
 import ru.netology.model.Post;
 import ru.netology.service.PostService;
 
@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.Reader;
 
 import ru.netology.exception.NotFoundException;
+
 
 public class PostController {
     public static final String APPLICATION_JSON = "application/json";
