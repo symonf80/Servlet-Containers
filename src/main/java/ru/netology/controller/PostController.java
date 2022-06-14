@@ -11,7 +11,7 @@ import java.io.Reader;
 
 import ru.netology.exception.NotFoundException;
 
-@Controller
+
 public class PostController {
     public static final String APPLICATION_JSON = "application/json";
     private final PostService service;

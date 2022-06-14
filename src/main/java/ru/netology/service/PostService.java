@@ -8,7 +8,7 @@ import ru.netology.exception.NotFoundException;
 
 import java.util.Collection;
 
-@Service
+
 public class PostService {
     private final PostRepository repository;
 
